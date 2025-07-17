@@ -11,14 +11,14 @@ Below is a screenshot of the full servo wiring setup in Tinkercad:
 
 **Circuit Wiring**
 
-![Circuit Simulation](images/Screenshot%202025-07-18%20015732.png)
+![Circuit Simulation]<img src="images/Screenshot 2025-07-18 015732.png" alt="Circuit Wiring" width="300"/>
 
 ---
 
 ## Try It Yourself
 
-You can try the full simulation here on Tinkercad:  
- [https://www.tinkercad.com/things/9ysM454EFyN-incredible-gaaris-kasi](https://www.tinkercad.com/things/9ysM454EFyN-incredible-gaaris-kasi)
+You can try the full simulation here:  
+ [View on Tinkercad](https://www.tinkercad.com/)
 
 Click **"Start Simulation"** to watch how the servos sweep back and forth using the Arduino logic.
 
@@ -30,13 +30,13 @@ Click **"Start Simulation"** to watch how the servos sweep back and forth using 
 - 4x SG90 Servo Motors  
 - 1x Breadboard  
 - Several Jumper Wires  
-- No external power supply used
-
- **Note:** All servo motors were powered directly from the Arduino’s 5V pin.
+- (No external power supply was used)
 
 ---
 
 ## Arduino Code Example
+
+This example shows how to control 4 servos in synchronized motion using the `Servo.h` library:
 
 ```cpp
 #include <Servo.h>
@@ -66,4 +66,17 @@ void loop() {
     servo4.write(i);
     delay(100);
   }
-}
+```
+---
+
+## Wiring Summary
+
+| Servo | Signal Pin | VCC (Red)         | GND (Brown/Black) |
+|-------|------------|-------------------|-------------------|
+| 1     | D3         | 5V (from Arduino) | GND               |
+| 2     | D5         | 5V (from Arduino) | GND               |
+| 3     | D9         | 5V (from Arduino) | GND               |
+| 4     | D10        | 5V (from Arduino) | GND               |
+
+> Powered entirely from Arduino's 5V pin — no external supply used.  
+> Circuit tested successfully in simulation.
