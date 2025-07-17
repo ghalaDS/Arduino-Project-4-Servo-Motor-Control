@@ -9,16 +9,14 @@ Each servo is connected to a digital pin and moves in sync from 0° to 180° and
 
 Below is a screenshot of the full servo wiring setup in Tinkercad:
 
-**Circuit Wiring**
-
-<img src="images/4servo.png" alt="4 Servo Motor Wiring" width="300"/>
+<img src="4servo.png" alt="4 Servo Motors Arduino Project" width="300"/>
 
 ---
 
 ## Try It Yourself
 
 You can try the full simulation here:  
- [Start Simulation]((https://www.tinkercad.com/things/9ysM454EFyN-incredible-gaaris-kasi))
+ [Start Simulation](https://www.tinkercad.com/things/9ysM454EFyN-incredible-gaaris-kasi)
 
 Click **"Start Simulation"** to watch how the servos sweep back and forth using the Arduino logic.
 
