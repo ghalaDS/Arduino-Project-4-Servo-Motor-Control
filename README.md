@@ -9,7 +9,7 @@ Each servo is connected to a digital pin and moves in sync from 0° to 180° and
 
 Below is a screenshot of the full servo wiring setup in Tinkercad:
 
-<img src="4servo.png" alt="4 Servo Motors Arduino Project" width="300"/>
+<img src="4servo.png" alt="4 Servo Motors Arduino Project"/>
 
 ---
 
@@ -37,6 +37,7 @@ Click **"Start Simulation"** to watch how the servos sweep back and forth using 
 This example shows how to control 4 servos in synchronized motion using the `Servo.h` library:
 
 ```cpp
+
 #include <Servo.h>
 
 Servo servo1, servo2, servo3, servo4;
