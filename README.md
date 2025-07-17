@@ -11,14 +11,14 @@ Below is a screenshot of the full servo wiring setup in Tinkercad:
 
 **Circuit Wiring**
 
-![Circuit Simulation]<img src="images/Screenshot 2025-07-18 015732.png" alt="Circuit Wiring" width="300"/>
+<img src="images/4servo.png" alt="4 Servo Motor Wiring" width="300"/>
 
 ---
 
 ## Try It Yourself
 
 You can try the full simulation here:  
- [View on Tinkercad](https://www.tinkercad.com/)
+ [Start Simulation](https://www.tinkercad.com/)
 
 Click **"Start Simulation"** to watch how the servos sweep back and forth using the Arduino logic.
 
