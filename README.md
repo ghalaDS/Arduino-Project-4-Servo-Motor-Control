@@ -18,7 +18,7 @@ Below is a screenshot of the full servo wiring setup in Tinkercad:
 ## Try It Yourself
 
 You can try the full simulation here:  
- [Start Simulation](https://www.tinkercad.com/)
+ [Start Simulation]((https://www.tinkercad.com/things/9ysM454EFyN-incredible-gaaris-kasi))
 
 Click **"Start Simulation"** to watch how the servos sweep back and forth using the Arduino logic.
 
