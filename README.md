@@ -27,8 +27,7 @@ Click **"Start Simulation"** to watch how the servos sweep back and forth using 
 - 1x Arduino UNO  
 - 4x SG90 Servo Motors  
 - 1x Breadboard  
-- Several Jumper Wires  
-- (No external power supply was used)
+- Several Jumper Wires
 
 ---
 
